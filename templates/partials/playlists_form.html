@@ -1,4 +1,8 @@
-<!-- templates/partials/playlists_form.html -->
+<!-- templates/partials/comment_form.html -->
+
+<form action='/playlists/comments' method='POST'>
+    <input type='hidden' value='{{ playlist._id }}' name='playlist_id'/>
+    <fieldset>
 
 <fieldset>
     <legend>Edit Playlist</legend>
